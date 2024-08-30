@@ -41,8 +41,9 @@ Terminal (2) for kjøring i sqlite3
 2. Kjør kommando: *python3 brukstilfelle3.py*
     - Dette vil kjøpe 9 billetter, og skriver til terminalen hvilke billetter som ble kjøpt, og den totale prisen.
     - Dette blir satt inn i billettkjøp-tabellen.
-    - Denne kommandoen kan kjøres flere ganger, og det vil bli kjøpt 9 nye billetter helt til det ikke lengre er 9 ledige seter på samme rad.
-Output brukstilfelle 3:
+    - Denne kommandoen kan kjøres flere ganger, og det vil bli kjøpt 9 nye billetter helt til det ikke lengre er 9 ledige seter på samme rad.  
+
+Output brukstilfelle 3:    
 ![Brukstilfelle3](./img/brukstilfelle3.png)
 
 **Brukstilfelle 4**
@@ -52,26 +53,27 @@ Output brukstilfelle 3:
 4. Skriv inn en dato
     - Eks: 2024-02-03
     - Resultatet du får er forestillingene som er denne datoen, tidspunkt, og antall solgte billetter.
-    - Dersom det ikke er noen forestilling denne datoen vil listen være tom.  
+    - Dersom det ikke er noen forestilling denne datoen vil listen være tom.    
 
-Output brukstilfelle 4:  
-**Skrev inn 2024-02-03:**
-![Brukstilfelle4(1)](./img/brukstifelle4(1).png)
-**Skrev inn 2024-02-06 (ingen solgte billetter):**
+Output brukstilfelle 4:    
+**Skrev inn 2024-02-03:**  
+![Brukstilfelle4(1)](./img/brukstifelle4(1).png)  
+**Skrev inn 2024-02-06 (ingen solgte billetter):**  
 ![Brukstilfelle4(2)](./img/brukstilfelle4(2).png)
 
 **Brukstilfelle 5**
 1. Åpne terminal (2)
 2. Kjør kommando: .read brukstilfelle5.sql
-    - Resultatet du nå får er en oversikt over navn på hvilke skuespillere som opptrer i de to teaterstykkene, og hvilken rolle de spiller. Noen skuespillere spiller to roller.  
-Output brukstilfelle 5: 
+    - Resultatet du nå får er en oversikt over navn på hvilke skuespillere som opptrer i de to teaterstykkene, og hvilken rolle de spiller. Noen skuespillere spiller to roller.      
+
+Output brukstilfelle 5:   
 ![Brukstilfelle5](./img/brukstilfelle5.png)
 
 **Brukstilfelle 6**
 1. Åpne terminal (2)
 2. Kjør kommando: .read brukstilfelle6.sql
-    - Resultatet du får ut i terminalen er en oversikt over de best solgte forestillingene, sortert på antall plasser i synkende rekkefølge.
-Output brukstilfelle 6:
+    - Resultatet du får ut i terminalen er en oversikt over de best solgte forestillingene, sortert på antall plasser i synkende rekkefølge.  
+Output brukstilfelle 6:  
 ![Brukstilfelle6](./img/brukstilfelle6.png)
 
 **Brukstilfelle 7**
@@ -83,6 +85,6 @@ Output brukstilfelle 6:
     - Eks: Arturo Scotti
     - Det er viktig at du skriver inn navnet korrekt for å få opp noen resultater.
 4. Resultatet du nå får er navnet på de skuespillerne som har spilt i samme akt og skuespill som den skuespilleren du sjekket for.
-Output brukstilfelle 7:
+Output brukstilfelle 7:  
+**Skrev inn Arturo Scotti**
 ![Brukstilfelle7](./img/brukstilfelle7.png)
-Skrev inn Arturo Scotti
