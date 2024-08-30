@@ -72,7 +72,7 @@ Output brukstilfelle 5:
 2. Kjør kommando: .read brukstilfelle6.sql
     - Resultatet du får ut i terminalen er en oversikt over de best solgte forestillingene, sortert på antall plasser i synkende rekkefølge.
 Output brukstilfelle 6:
-![Brukstilfelle6](./img/brukertilfelle6.png)
+![Brukstilfelle6](./img/brukstilfelle6.png)
 
 **Brukstilfelle 7**
 1. Åpne terminal (1)
@@ -84,5 +84,5 @@ Output brukstilfelle 6:
     - Det er viktig at du skriver inn navnet korrekt for å få opp noen resultater.
 4. Resultatet du nå får er navnet på de skuespillerne som har spilt i samme akt og skuespill som den skuespilleren du sjekket for.
 Output brukstilfelle 7:
-![Brukstilfelle7](./img/brukertilfelle7.png)
+![Brukstilfelle7](./img/brukstilfelle7.png)
 Skrev inn Arturo Scotti
