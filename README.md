@@ -1,15 +1,17 @@
 # Prosjekt 2024 - TDT4145 👩🏽‍💻
 ## Innlevering, del 2: Realisert databasesystem - Trøndelag Teater 🎭🍿
-**Gruppemedlemmer 👩‍👩‍👧:** Hanna Katle Fjon, Julie Amundsen Wolff, Julie Egeberg Moger 
+**Gruppemedlemmer 👩‍👩‍👧:** Julie Amundsen Wolff, Julie Egeberg Moger og Hanna Katle Fjon
 
+I dette prosjektet lager vi et system for kjøp av teaterbilletter hos Trøndelag Teater
 ## Fremgangsmåte for kjøring av brukstilfelle 1 til 7
 
 Brukstilfellene må kjøres i rekkefølge, ettersom senere kommandoer er avhengig av at data ligger i databasen.
 Det byttes mellom to terminaler gjennom fremgangsmåten:
-Terminal (1) for kjøring av Python
-Terminal (2) for kjøring i sqlite3
+* Terminal (1) for kjøring av Python
+* Terminal (2) for kjøring i sqlite3
 
-**Brukstilfelle 1**
+**Brukstilfelle 1**  
+*Setter inn saler, stoler, teaterstykker, roller, forestillinger, akter, skuespillere og andre medvirkere.*
 1. Åpne terminal (1).
 2. Kjør kommando: *python3 teater.py*
     - Denne kommandoen leser teater.sql-filen, og oppretter alle de nødvendige tabellene i teater.db.
@@ -26,7 +28,8 @@ Terminal (2) for kjøring i sqlite3
 10. Kjør kommando:* .read innsett_stoler_billetter_hovedscene.sql*
     - Dette vil sette inn entiteter i stol-tabellen og billett-tabellen i teater.db.
    
-**Brukstilfelle ✌🏼**
+**Brukstilfelle ✌🏼**  
+*Setter inn hvilke stoler som er solgt.*
 1. Åpne terminal (1)
 2. Kjør kommando: *python3 brukstilfelle2.py*
     - Dette oppretter innsett_kjøp_gamlescene.sql og innsett_kjøp_hovedscene.sql
@@ -36,7 +39,9 @@ Terminal (2) for kjøring i sqlite3
 6. Kjør kommando: *.read innsett_kjøp_hovedscene.sql*
     -  Dette vil sette inn entiteter i billettkjøp-tabellen.
 
-**Brukstilfelle 3**
+**Brukstilfelle 3**  
+*Kjøper 9 voksenbilletter til forestillingen for Størst av alt er
+kjærligheten 3. februar, hvor det er 9 ledige billetter og hvor stolene er på samme rad.*
 1. Åpne terminal (1)
 2. Kjør kommando: *python3 brukstilfelle3.py*
     - Dette vil kjøpe 9 billetter, og skriver til terminalen hvilke billetter som ble kjøpt, og den totale prisen.
@@ -46,7 +51,8 @@ Terminal (2) for kjøring i sqlite3
 Output brukstilfelle 3:    
 ![Brukstilfelle3](./img/brukstilfelle3.png)
 
-**Brukstilfelle 4**
+**Brukstilfelle 4**  
+*Tar inn en dato og skriver ut hvilke forestillinger som finnes på denne datoen og lister opp hvor mange billetter som er solgt.*
 1. Åpne terminal (1)
 2. Kjør kommando: *python3 brukstilfelle4.py*
 3. I terminalen står det nå “Skriv inn datoen (åååå-mm-dd): “
@@ -61,7 +67,8 @@ Output brukstilfelle 4:
 **Skrev inn 2024-02-06 (ingen solgte billetter):**  
 ![Brukstilfelle4(2)](./img/brukstilfelle4(2).png)
 
-**Brukstilfelle 5**
+**Brukstilfelle 5**  
+*Finner hvilke skuespillere som opptrer i de forskjellige teaterstykkene.*
 1. Åpne terminal (2)
 2. Kjør kommando: .read brukstilfelle5.sql
     - Resultatet du nå får er en oversikt over navn på hvilke skuespillere som opptrer i de to teaterstykkene, og hvilken rolle de spiller. Noen skuespillere spiller to roller.      
@@ -69,14 +76,18 @@ Output brukstilfelle 4:
 Output brukstilfelle 5:   
 ![Brukstilfelle5](./img/brukstilfelle5.png)
 
-**Brukstilfelle 6**
+**Brukstilfelle 6**  
+*Finner hvilke forestillinger som har solgt
+best.*
 1. Åpne terminal (2)
 2. Kjør kommando: .read brukstilfelle6.sql
     - Resultatet du får ut i terminalen er en oversikt over de best solgte forestillingene, sortert på antall plasser i synkende rekkefølge.  
 Output brukstilfelle 6:  
 ![Brukstilfelle6](./img/brukstilfelle6.png)
 
-**Brukstilfelle 7**
+**Brukstilfelle 7**  
+*Tar in et skuespillernavn og finner
+hvilke skuespilllere de har spilt med i samme akt.*
 1. Åpne terminal (1)
 2. Kjør kommando: *python3 brukstilfelle7.py*
     - Her kjøres pythonfil med tilhørende sql-spørring
